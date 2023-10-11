@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+// import myImg from "../../Assets/avatar.svg";
+// import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -13,8 +13,8 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
+        
+          <Col md={12} className="home-about-social">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and . </b>
+                <b className="purple"> C++, Javascript and Nodejs </b>
               </i>
               <br />
               <br />
@@ -52,13 +52,9 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-        </Row>
-        <Row>
+         
+          
+       
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -107,7 +103,7 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row>
+        
       </Container>
     </Container>
   );

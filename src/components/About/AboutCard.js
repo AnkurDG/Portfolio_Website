@@ -30,7 +30,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(211, 174, 42)" }}>
             "Change is the only constant!"{" "}
           </p>
           <footer className="blockquote-footer">Ankur DG</footer>

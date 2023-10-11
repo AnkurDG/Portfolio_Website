@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/about2_prev_ui.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -17,8 +17,8 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
+              paddingTop: "1px",
+              paddingBottom: "100px",
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
